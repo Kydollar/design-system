@@ -18,6 +18,22 @@ module.exports = {
 				sans: ["var(--font-sans)", ...fontFamily.sans],
 				heading: ["var(--font-heading)", ...fontFamily.sans],
 			},
+			colors: {
+				primary: {
+					DEFAULT: "hsl(var(--primary))",
+					foreground: "hsl(var(--primary-foreground))",
+				},
+				primaryLight: "#dbeafe",
+				primaryDark: "#1e3a8a",
+				secondary: {
+					DEFAULT: "hsl(var(--secondary))",
+					foreground: "hsl(var(--secondary-foreground))",
+				},
+				secondaryLight: "#fef9c3",
+				secondaryDark: "#713f12",
+				light: "#F2F2F2",
+				dark: "#111827",
+			},
 		},
 	},
 	plugins: [],

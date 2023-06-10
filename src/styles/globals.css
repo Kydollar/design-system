@@ -3,6 +3,21 @@
 @tailwind utilities;
 
 @layer base {
+	:root {
+		--primary: 221 83% 53%;
+		--primary-foreground: 211 98% 20%);
+		/* --primary-foreground: 216 100% 97%; */
+
+		--secondary: 354 62% 36%;
+		--secondary-foreground: 216 100% 97%;
+		/* --primary: 222.2 47.4% 11.2%;
+		--primary-foreground: 210 40% 98%;
+		--secondary: 210 40% 96.1%;
+		--secondary-foreground: 222.2 47.4% 11.2%; */
+	}
+}
+
+@layer base {
 	body {
 		@apply dark:bg-gray-800 bg-white;
 	}

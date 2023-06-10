@@ -40,7 +40,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <SiteNavbar />
-          <main className="p-4">
+          <main className="relative z-10 p-4 bg-white dark:bg-gray-800 transition-color duration-500">
             {children}
           </main>
           <SiteFooter />

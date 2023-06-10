@@ -3,12 +3,12 @@
 	"version": "0.1.0",
 	"private": true,
 	"author": {
-		"name": "kydollar",
-		"url": "https://www.instagram.com/kydollar/"
+		"name": "devriz",
+		"url": "https://www.instagram.com/"
 	},
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build",
+		"build": "next build && export",
 		"start": "next start",
 		"lint": "next lint"
 	},
@@ -24,6 +24,7 @@
 		"clsx": "^1.2.1",
 		"eslint": "8.42.0",
 		"eslint-config-next": "^13.4.4",
+		"framer-motion": "^10.12.16",
 		"lucide-react": "^0.241.0",
 		"next": "^13.4.4",
 		"next-themes": "^0.2.1",
